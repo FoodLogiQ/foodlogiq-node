@@ -12,10 +12,10 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git://github.com/FoodLogiQ/foodlogiq-client-node.git"
+    "url": "git://github.com/FoodLogiQ/foodlogiq-node.git"
   },
   "bugs": {
-    "url": "http://github.com/FoodLogiQ/foodlogiq-client-node/issues"
+    "url": "http://github.com/FoodLogiQ/foodlogiq-node/issues"
   },
   "author": {
     "name": "Shaun Pack",
