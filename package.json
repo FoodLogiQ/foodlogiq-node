@@ -1,6 +1,6 @@
 {
   "name": "foodlogiq-client",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Wrapper around FLQ services.",
   "keywords": [
     "foodlogiq",
@@ -38,7 +38,7 @@
   },
   "readme": "FoodLogiQ CLient\n==================\n\n",
   "readmeFilename": "README.md",
-  "_id": "foodlogiq-client@0.0.1",
+  "_id": "foodlogiq-client@0.0.2",
   "dist": {
     "shasum": "ea8b04d7ece4179ded66b4465609b6b77f5fb304"
   },
