@@ -1,0 +1,48 @@
+{
+  "name": "foodlogiq-client",
+  "version": "0.0.1",
+  "description": "Wrapper around FLQ services.",
+  "keywords": [
+    "foodlogiq",
+    "api",
+    "auth",
+    "authn",
+    "authentication",
+    "identity"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/FoodLogiQ/foodlogiq-client-node.git"
+  },
+  "bugs": {
+    "url": "http://github.com/FoodLogiQ/foodlogiq-client-node/issues"
+  },
+  "author": {
+    "name": "Shaun Pack",
+    "email": "spack@foodlogiq.com"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://www.opensource.org/licenses/MIT"
+    }
+  ],
+  "main": "./lib/foodlogiq-client",
+  "dependencies": {
+    "pkginfo": "0.2.x",
+    "oauth": "*"
+  },
+  "scripts": {},
+  "engines": {
+    "node": ">= 0.4.0"
+  },
+  "readme": "FoodLogiQ CLient\n==================\n\n",
+  "readmeFilename": "README.md",
+  "_id": "foodlogiq-client@0.0.1",
+  "dist": {
+    "shasum": "ea8b04d7ece4179ded66b4465609b6b77f5fb304"
+  },
+  "_resolved": "git://github.com/FoodLogiQ/passport-foodlogiq.git#0ba2cf6ffb680dacfa4dd4d18ed52fc98cf0861e",
+  "_from": "git://github.com/FoodLogiQ/passport-foodlogiq.git",
+  "_fromGithub": true
+}
