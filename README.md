@@ -9,4 +9,6 @@ Works with
 * products
 * locations
 * suppliers
-
+* customers
+* documents
+* events
