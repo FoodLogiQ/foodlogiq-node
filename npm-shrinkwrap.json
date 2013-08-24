@@ -1,0 +1,20 @@
+{
+  "name": "foodlogiq-client",
+  "version": "0.2.0",
+  "from": "git://github.com/FoodLogiQ/passport-foodlogiq.git",
+  "resolved": "git://github.com/FoodLogiQ/passport-foodlogiq.git#0ba2cf6ffb680dacfa4dd4d18ed52fc98cf0861e",
+  "dependencies": {
+    "pkginfo": {
+      "version": "0.2.3",
+      "from": "pkginfo@0.2.x"
+    },
+    "oauth": {
+      "version": "0.9.10",
+      "from": "oauth@*"
+    },
+    "cloneextend": {
+      "version": "0.0.3",
+      "from": "cloneextend@*"
+    }
+  }
+}
