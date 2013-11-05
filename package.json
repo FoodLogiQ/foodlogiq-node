@@ -31,7 +31,8 @@
   "dependencies": {
     "pkginfo": "0.2.x",
     "oauth": "*",
-    "cloneextend": "*"
+    "cloneextend": "*",
+    "request": "*"
   },
   "scripts": {},
   "engines": {
