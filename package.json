@@ -1,6 +1,6 @@
 {
   "name": "foodlogiq-client",
-  "version": "1.4.0",
+  "version": "1.4.1",
   "description": "Wrapper around FLQ services.",
   "keywords": [
     "foodlogiq",
@@ -32,7 +32,8 @@
     "pkginfo": "0.2.x",
     "oauth": "*",
     "cloneextend": "*",
-    "request": "*"
+    "request": "*",
+    "winston": "*"
   },
   "scripts": {},
   "engines": {

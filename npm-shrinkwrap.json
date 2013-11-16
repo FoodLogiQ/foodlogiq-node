@@ -1,44 +1,44 @@
 {
   "name": "foodlogiq-client",
-  "version": "1.2.4",
+  "version": "1.4.1",
   "from": "git://github.com/FoodLogiQ/passport-foodlogiq.git",
   "resolved": "git://github.com/FoodLogiQ/passport-foodlogiq.git#0ba2cf6ffb680dacfa4dd4d18ed52fc98cf0861e",
   "dependencies": {
     "pkginfo": {
       "version": "0.2.3",
-      "from": "pkginfo@0.2.3"
+      "from": "pkginfo@0.2.x"
     },
     "oauth": {
       "version": "0.9.10",
-      "from": "oauth@0.9.10"
+      "from": "oauth@*"
     },
     "cloneextend": {
       "version": "0.0.3",
-      "from": "cloneextend@0.0.3"
+      "from": "cloneextend@*"
     },
     "request": {
       "version": "2.27.0",
-      "from": "request@",
+      "from": "request@2.27.0",
       "dependencies": {
         "qs": {
           "version": "0.6.5",
-          "from": "qs@~0.6.0"
+          "from": "qs@0.6.5"
         },
         "json-stringify-safe": {
           "version": "5.0.0",
-          "from": "json-stringify-safe@~5.0.0"
+          "from": "json-stringify-safe@5.0.0"
         },
         "forever-agent": {
           "version": "0.5.0",
-          "from": "forever-agent@~0.5.0"
+          "from": "forever-agent@0.5.0"
         },
         "tunnel-agent": {
           "version": "0.3.0",
-          "from": "tunnel-agent@~0.3.0"
+          "from": "tunnel-agent@0.3.0"
         },
         "http-signature": {
           "version": "0.10.0",
-          "from": "http-signature@~0.10.0",
+          "from": "http-signature@0.10.0",
           "dependencies": {
             "assert-plus": {
               "version": "0.1.2",
@@ -56,53 +56,53 @@
         },
         "hawk": {
           "version": "1.0.0",
-          "from": "hawk@~1.0.0",
+          "from": "hawk@1.0.0",
           "dependencies": {
             "hoek": {
               "version": "0.9.1",
-              "from": "hoek@0.9.x"
+              "from": "hoek@0.9.1"
             },
             "boom": {
               "version": "0.4.2",
-              "from": "boom@0.4.x"
+              "from": "boom@0.4.2"
             },
             "cryptiles": {
               "version": "0.2.2",
-              "from": "cryptiles@0.2.x"
+              "from": "cryptiles@0.2.2"
             },
             "sntp": {
               "version": "0.2.4",
-              "from": "sntp@0.2.x"
+              "from": "sntp@0.2.4"
             }
           }
         },
         "aws-sign": {
           "version": "0.3.0",
-          "from": "aws-sign@~0.3.0"
+          "from": "aws-sign@0.3.0"
         },
         "oauth-sign": {
           "version": "0.3.0",
-          "from": "oauth-sign@~0.3.0"
+          "from": "oauth-sign@0.3.0"
         },
         "cookie-jar": {
           "version": "0.3.0",
-          "from": "cookie-jar@~0.3.0"
+          "from": "cookie-jar@0.3.0"
         },
         "node-uuid": {
           "version": "1.4.1",
-          "from": "node-uuid@~1.4.0"
+          "from": "node-uuid@1.4.1"
         },
         "mime": {
           "version": "1.2.11",
-          "from": "mime@~1.2.9"
+          "from": "mime@1.2.11"
         },
         "form-data": {
           "version": "0.1.2",
-          "from": "form-data@~0.1.0",
+          "from": "form-data@0.1.2",
           "dependencies": {
             "combined-stream": {
               "version": "0.0.4",
-              "from": "combined-stream@~0.0.4",
+              "from": "combined-stream@0.0.4",
               "dependencies": {
                 "delayed-stream": {
                   "version": "0.0.5",
@@ -112,9 +112,119 @@
             },
             "async": {
               "version": "0.2.9",
-              "from": "async@~0.2.9"
+              "from": "async@0.2.9"
             }
           }
+        }
+      }
+    },
+    "winston": {
+      "version": "0.7.2",
+      "from": "winston@",
+      "dependencies": {
+        "async": {
+          "version": "0.2.9",
+          "from": "async@0.2.x"
+        },
+        "colors": {
+          "version": "0.6.2",
+          "from": "colors@0.6.x"
+        },
+        "cycle": {
+          "version": "1.0.2",
+          "from": "cycle@1.0.x"
+        },
+        "eyes": {
+          "version": "0.1.8",
+          "from": "eyes@0.1.x"
+        },
+        "pkginfo": {
+          "version": "0.3.0",
+          "from": "pkginfo@0.3.x"
+        },
+        "request": {
+          "version": "2.16.6",
+          "from": "request@2.16.x",
+          "dependencies": {
+            "form-data": {
+              "version": "0.0.10",
+              "from": "form-data@~0.0.3",
+              "dependencies": {
+                "combined-stream": {
+                  "version": "0.0.4",
+                  "from": "combined-stream@~0.0.4",
+                  "dependencies": {
+                    "delayed-stream": {
+                      "version": "0.0.5",
+                      "from": "delayed-stream@0.0.5"
+                    }
+                  }
+                }
+              }
+            },
+            "mime": {
+              "version": "1.2.11",
+              "from": "mime@~1.2.7"
+            },
+            "hawk": {
+              "version": "0.10.2",
+              "from": "hawk@~0.10.2",
+              "dependencies": {
+                "hoek": {
+                  "version": "0.7.6",
+                  "from": "hoek@0.7.x"
+                },
+                "boom": {
+                  "version": "0.3.8",
+                  "from": "boom@0.3.x"
+                },
+                "cryptiles": {
+                  "version": "0.1.3",
+                  "from": "cryptiles@0.1.x"
+                },
+                "sntp": {
+                  "version": "0.1.4",
+                  "from": "sntp@0.1.x"
+                }
+              }
+            },
+            "node-uuid": {
+              "version": "1.4.1",
+              "from": "node-uuid@~1.4.0"
+            },
+            "cookie-jar": {
+              "version": "0.2.0",
+              "from": "cookie-jar@~0.2.0"
+            },
+            "aws-sign": {
+              "version": "0.2.0",
+              "from": "aws-sign@~0.2.0"
+            },
+            "oauth-sign": {
+              "version": "0.2.0",
+              "from": "oauth-sign@~0.2.0"
+            },
+            "forever-agent": {
+              "version": "0.2.0",
+              "from": "forever-agent@~0.2.0"
+            },
+            "tunnel-agent": {
+              "version": "0.2.0",
+              "from": "tunnel-agent@~0.2.0"
+            },
+            "json-stringify-safe": {
+              "version": "3.0.0",
+              "from": "json-stringify-safe@~3.0.0"
+            },
+            "qs": {
+              "version": "0.5.6",
+              "from": "qs@~0.5.4"
+            }
+          }
+        },
+        "stack-trace": {
+          "version": "0.0.7",
+          "from": "stack-trace@0.0.x"
         }
       }
     }
