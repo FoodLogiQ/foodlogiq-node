@@ -1,6 +1,6 @@
 {
   "name": "foodlogiq-client",
-  "version": "1.12.0",
+  "version": "1.14.0",
   "from": "git://github.com/FoodLogiQ/passport-foodlogiq.git",
   "resolved": "git://github.com/FoodLogiQ/passport-foodlogiq.git#0ba2cf6ffb680dacfa4dd4d18ed52fc98cf0861e",
   "dependencies": {
