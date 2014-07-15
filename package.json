@@ -29,12 +29,12 @@
   ],
   "main": "./lib/foodlogiq-client",
   "dependencies": {
+    "cloneextend": "0.0.3",
+    "form-data": "~0.1.2",
+    "oauth": "^0.9.12",
     "pkginfo": "0.2.x",
-    "oauth": "*",
-    "cloneextend": "*",
-    "request": "*",
-    "winston": "*",
-    "form-data": "~0.1.2"
+    "request": "^2.37.0",
+    "winston": "^0.7.3"
   },
   "scripts": {},
   "engines": {
